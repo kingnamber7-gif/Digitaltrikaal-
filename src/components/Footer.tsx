@@ -195,10 +195,10 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <Phone size={16} className="text-[#FFD500] mt-1 shrink-0" />
                 <div>
-                  <a href="tel:+919352392905" className="block hover:text-white transition-colors">
-                    +91 93523 92905
+                  <a href="tel:+919352392906" className="block hover:text-white transition-colors">
+                    +91 93523 92906
                   </a>
-                  <a href="https://wa.me/919352392905" target="_blank" rel="noopener noreferrer" className="block hover:text-[#FFD500] text-xs text-[#FFD500]/80 mt-0.5 transition-colors">
+                  <a href="https://wa.me/919352392906" target="_blank" rel="noopener noreferrer" className="block hover:text-[#FFD500] text-xs text-[#FFD500]/80 mt-0.5 transition-colors">
                     Click to Chat (WhatsApp)
                   </a>
                 </div>

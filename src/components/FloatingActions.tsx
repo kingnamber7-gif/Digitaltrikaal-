@@ -6,7 +6,7 @@ export default function FloatingActions() {
     <div className="fixed bottom-6 right-6 z-40 flex flex-col items-center space-y-4">
       {/* Phone Call Floating Button */}
       <a
-        href="tel:+919352392905"
+        href="tel:+919352392906"
         id="floating-phone-btn"
         className="w-13 h-13 rounded-full bg-[#FFD500] hover:bg-[#ffe033] text-[#0A0A0A] flex items-center justify-center shadow-[0_4px_20px_rgba(255,213,0,0.4)] hover:shadow-[0_4px_25px_rgba(255,213,0,0.6)] transition-all duration-300 hover:scale-110 active:scale-90 group relative"
         title="Call Us Now"
@@ -15,13 +15,13 @@ export default function FloatingActions() {
         
         {/* Tooltip */}
         <span className="absolute right-16 bg-[#0A0A0A] border border-white/10 text-white text-xs font-medium px-3 py-1.5 rounded-lg opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-xl">
-          Call +91 93523 92905
+          Call +91 93523 92906
         </span>
       </a>
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/919352392905"
+        href="https://wa.me/919352392906"
         target="_blank"
         rel="noopener noreferrer"
         id="floating-whatsapp-btn"
