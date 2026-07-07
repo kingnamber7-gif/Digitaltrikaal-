@@ -1,0 +1,6 @@
+{
+  "name": "Digital Trikaal",
+  "description": "Premium personal brand and tech agency website for Ankit Kumar, specializing in AI solutions, website development, and digital marketing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
