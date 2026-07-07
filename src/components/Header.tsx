@@ -67,16 +67,7 @@ export default function Header() {
             })}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden lg:block">
-            <Link
-              href="/contact"
-              id="header-cta-btn"
-              className="px-5 py-2.5 bg-[#FFD500] hover:bg-[#ffe033] text-[#0A0A0A] font-bold text-sm rounded-full transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(255,213,0,0.15)] hover:shadow-[0_0_20px_rgba(255,213,0,0.35)]"
-            >
-              Consult Now
-            </Link>
-          </div>
+
 
           {/* Mobile Menu Trigger */}
           <div className="lg:hidden">
