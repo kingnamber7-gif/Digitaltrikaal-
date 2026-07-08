@@ -99,14 +99,11 @@ export default function Home() {
           loop
           muted
           playsInline
-          referrerPolicy="no-referrer"
-          src="https://lh3.googleusercontent.com/pw/AP1GczN-hs_11A3qOaoAFnzxvtPVI_p2aJv-9dNGo4l3dtHaDTc8z9Xw8gAU_Sckflir4lMVDIx8hFiuUiYeS98j_S3k_j99uspDFRgjy9Lg_o2gaS2iG1M=m22"
-          poster="https://lh3.googleusercontent.com/pw/AP1GczN-hs_11A3qOaoAFnzxvtPVI_p2aJv-9dNGo4l3dtHaDTc8z9Xw8gAU_Sckflir4lMVDIx8hFiuUiYeS98j_S3k_j99uspDFRgjy9Lg_o2gaS2iG1M=w1280-h720-p-k-no"
+          src="/hero-bg.mp4"
+          poster="/hero-poster.jpg"
           className="absolute inset-0 w-full h-full object-cover opacity-80 z-0"
         >
-          <source src="https://lh3.googleusercontent.com/pw/AP1GczN-hs_11A3qOaoAFnzxvtPVI_p2aJv-9dNGo4l3dtHaDTc8z9Xw8gAU_Sckflir4lMVDIx8hFiuUiYeS98j_S3k_j99uspDFRgjy9Lg_o2gaS2iG1M=m22" type="video/mp4" />
-          <source src="https://lh3.googleusercontent.com/pw/AP1GczN-hs_11A3qOaoAFnzxvtPVI_p2aJv-9dNGo4l3dtHaDTc8z9Xw8gAU_Sckflir4lMVDIx8hFiuUiYeS98j_S3k_j99uspDFRgjy9Lg_o2gaS2iG1M=m18" type="video/mp4" />
-          <source src="https://lh3.googleusercontent.com/pw/AP1GczN-hs_11A3qOaoAFnzxvtPVI_p2aJv-9dNGo4l3dtHaDTc8z9Xw8gAU_Sckflir4lMVDIx8hFiuUiYeS98j_S3k_j99uspDFRgjy9Lg_o2gaS2iG1M=w600-h315-k-no-m18" type="video/mp4" />
+          <source src="/hero-bg.mp4" type="video/mp4" />
         </video>
 
         {/* Video overlay with slightly adjusted opacity to make 80% video shine while keeping text readable */}

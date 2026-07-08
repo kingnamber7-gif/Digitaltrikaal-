@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter, Link } from '../components/Router';
-import { PORTFOLIO_CATEGORIES } from '../data';
+import { PORTFOLIO_CATEGORIES, SHOWCASE_WEBSITES } from '../data';
 import { getServiceIcon } from './Home';
 import { ExternalLink, ChevronRight, Globe2, FolderGit2, Sparkles, MessageCircle } from 'lucide-react';
 import { PagePath } from '../types';
@@ -88,7 +88,7 @@ export default function Portfolio() {
                 AI Web Development Portfolio
               </h3>
               <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
-                We develop fast-loading, highly polished, and responsive web platforms. Browse our curated showcase of 14 live web applications built with beautiful CSS layouts, custom typography, and high performance scores.
+                We develop fast-loading, highly polished, and responsive web platforms. Browse our curated showcase of {SHOWCASE_WEBSITES.length} live web applications built with beautiful CSS layouts, custom typography, and high performance scores.
               </p>
             </div>
 

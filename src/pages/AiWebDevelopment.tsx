@@ -30,12 +30,12 @@ export default function AiWebDevelopment() {
             AI Web Development Showcases
           </h1>
           <p className="text-gray-400 text-sm sm:text-base max-w-2xl mt-4 leading-relaxed">
-            A premium collection of 14 live website showcases custom-vetted and hosted. These platforms demonstrate our core commitment to extreme performance, gorgeous mobile responsiveness, and clean CSS layouts.
+            A premium collection of {SHOWCASE_WEBSITES.length} live website showcases custom-vetted and hosted. These platforms demonstrate our core commitment to extreme performance, gorgeous mobile responsiveness, and clean CSS layouts.
           </p>
         </div>
       </section>
 
-      {/* Grid of 14 Live Sites */}
+      {/* Grid of Live Sites */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="showcase-grid-block">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {SHOWCASE_WEBSITES.map((site, index) => {
