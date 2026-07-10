@@ -290,7 +290,12 @@ export const SHOWCASE_WEBSITES = [
   { title: 'Portfolio Showcase 14', url: 'https://luxury-chimera-0482ac.netlify.app' },
   { title: 'Portfolio Showcase 15', url: 'https://peppy-buttercream-108f59.netlify.app/' },
   { title: 'Portfolio Showcase 16', url: 'https://superb-griffin-18b13a.netlify.app/' },
-  { title: 'Portfolio Showcase 17', url: 'https://dev-national-studioz.vercel.app/' }
+  { title: 'Portfolio Showcase 17', url: 'https://dev-national-studioz.vercel.app/' },
+  { title: 'Portfolio Showcase 18', url: 'https://trikaalrealestate.netlify.app/' },
+  { title: 'Portfolio Showcase 19', url: 'https://trikaalstate.vercel.app/' },
+  { title: 'Portfolio Showcase 20', url: 'https://pocxo.netlify.app/' },
+  { title: 'Portfolio Showcase 21', url: 'https://12586.netlify.app/' },
+  { title: 'Portfolio Showcase 22', url: 'https://kukufi.netlify.app/' }
 ];
 
 export const CERTIFICATIONS: Certificate[] = [
@@ -348,6 +353,11 @@ export const CERTIFICATIONS: Certificate[] = [
     name: 'Fundamentals of Digital Marketing',
     issuedBy: 'United Latino Students Association',
     link: 'https://skillshop.exceedlms.com/student/award/jfN5V7961xojHpqCwT6HupEN'
+  },
+  {
+    name: 'Artificial Intelligence Fundamentals',
+    issuedBy: 'IBM',
+    link: 'https://www.credly.com/badges/8198785c-8f19-4705-a50d-484bd2cc39b1/public_url'
   }
 ];
 

@@ -8,6 +8,7 @@ interface Book {
   coverUrl: string;
   downloadUrl: string;
   description: string;
+  type?: 'free' | 'paid';
 }
 
 const BOOKS: Book[] = [
@@ -31,6 +32,62 @@ const BOOKS: Book[] = [
     coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczMHM1qt3eYSPtoQnJ2YjIjccvV7KWJQ9ZFvkgSWeUfAyXvfk1yxC4zndbawkFLoTxp2SBdlwFWatVz_atDU7w2UnadaFv6kGuekv5j2spW_QTY-d1U=s800',
     downloadUrl: 'https://docs.google.com/document/d/1jrzQviIelGG2OxQEO698q6P2g3Nuy5vU/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
     description: 'Timeless lessons on how people think about money — and how to make smarter financial decisions.'
+  },
+  {
+    id: 'book-4',
+    title: '48 Laws Of Power',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczO49T4qBnc3Cf4RPeAXjwT_0QQJgaN5PjB01h9wT6doi-p58tafbxlCXtvCpxQkjtg002ikjcMY7ABSy2AIu71hr8ZoKJ9Jpfwjfvw-EYLDJbNpI2g=s800',
+    downloadUrl: 'https://docs.google.com/document/d/1yVZXtNRFz_ek0_MFRCUN6a_mopmdRZ-_/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: 'Master the timeless principles of influence, strategy, leadership, and power used throughout history.',
+    type: 'free'
+  },
+  {
+    id: 'book-5',
+    title: 'Deep Work',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPlmL5H4wmHoeQJ7d1x75Krst0HSdi1v4vM25jZgWTbs52rY4IT6XbJJ0gV1dch-5AZx2rydkkZ7vNrNt-4XXgbvkStsmB27roqMGzrucK1unggZMc=s800',
+    downloadUrl: 'https://docs.google.com/document/d/1e9uBzEXS_Xq0Wudha6bls1jod2_hfQrp/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: 'Learn how intense focus can help you produce better work, master valuable skills, and achieve extraordinary results.',
+    type: 'free'
+  },
+  {
+    id: 'book-6',
+    title: 'IKIGAI',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNsm00qwVa11xUS_BwCMYd8699zKQhUweG77IqhUt82M5GizneNSVFSo-okhHRZp-ImeJSn2isbOhkeEOmx5Ytx_40pe-uEhsf4Byi5Vn5KDGQ8KWA=s800',
+    downloadUrl: 'https://docs.google.com/document/d/19Fq5W4_vv6zFKPZedPrFZj8plPkE028p/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: 'Discover the Japanese philosophy for finding purpose, happiness, and a meaningful life every day.',
+    type: 'free'
+  },
+  {
+    id: 'book-7',
+    title: 'The Prince',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczM_V0pA0Ocrwmc3CeME3kvRAmWF49HoRXJNBr4SataFGTKlhNtD4EdP7ot2JhrPBQjN-aJUBkrq-RQfzHUrZ8BQVrqWOeYt3dnWLs_6U8cwp6J_OZc=s800',
+    downloadUrl: 'https://docs.google.com/document/d/1E88-oTuedCJOQ2hpZdRRpcH8Tre8Lz0D/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: 'Explore the classic guide to politics, leadership, strategy, and practical decision-making by Niccolò Machiavelli.',
+    type: 'free'
+  },
+  {
+    id: 'book-8',
+    title: 'Arthashastra',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOMTCR1Bnr3iJ0RYkaqW-0WhOEkKaWyAn8__VqGJKpKv2wG7oGPIsa8slWecVs0P9BcDazwmUryy7FCGYASUI-GinQhmu4JKhEQ2UWk-lGpbxZ-Fu8=s800',
+    downloadUrl: 'https://docs.google.com/document/d/1l9Y3OJjsWRXFOaLUsmvywDQkpOqqfTtR/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: "Learn Chanakya's timeless wisdom on governance, economics, leadership, diplomacy, and strategic thinking.",
+    type: 'free'
+  },
+  {
+    id: 'book-9',
+    title: 'Chanakya Niti',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczO95ajtJItObCQlrDYMKtVyc9-v9eJ3ObeUx7fANey3tNfNJ4bBNLjOz7Xm8Yz38CHJsG8tw3voVNBVgWYcJbSRwMS2hCxMBRSKJxsvQY8i7BciKHs=s800',
+    downloadUrl: 'https://docs.google.com/document/d/1sLRBm3l_-zz_sTA29T6Rqj7DE7AdhvMj/edit?usp=drivesdk&ouid=109873184291413051889&rtpof=true&sd=true',
+    description: 'Powerful life lessons on wisdom, discipline, success, relationships, and leadership from Acharya Chanakya.',
+    type: 'free'
+  },
+  {
+    id: 'book-10',
+    title: 'The Success',
+    coverUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOoJo8yhC8-WgdivtVy2cItKF1huWy3Mh2XHO3WnO36At61DnLhQ3MzryVXjnTauZV6cYp0WOiAgrQCT3q-85mWYEHkZKEII-aUZq5MJfgZjgEKGMw=s800',
+    downloadUrl: 'https://rzp.io/rzp/cCFJqBH',
+    description: 'The essence of 8 world-famous success books in one practical Hindi book, packed with actionable life lessons to help you grow faster.',
+    type: 'paid'
   }
 ];
 
@@ -60,60 +117,76 @@ export default function DigitalProducts() {
         
         {/* 3-column responsive grid on desktop, 1-column stacked layout on mobile */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {BOOKS.map((book) => (
-            <div
-              key={book.id}
-              className="group bg-[#121212] border border-white/5 hover:border-[#FFD500]/30 rounded-[20px] overflow-hidden flex flex-col justify-between transition-all duration-300 shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(255,213,0,0.06)]"
-            >
-              {/* Cover Image Container */}
-              <div className="p-6 pb-0 flex justify-center">
-                <div className="relative aspect-[3/4] w-full max-w-[240px] bg-zinc-900 rounded-xl overflow-hidden border border-white/10 shadow-xl group-hover:scale-[1.03] transition-all duration-500">
-                  <img
-                    src={book.coverUrl}
-                    alt={book.title}
-                    referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover"
-                  />
-                  {/* Small yellow FREE pill badge positioned on top-right of the cover */}
-                  <span className="absolute top-3 right-3 bg-[#FFD500] text-[#0A0A0A] text-[10px] font-extrabold px-2.5 py-1 rounded-full tracking-wider uppercase shadow-md z-10">
-                    FREE
-                  </span>
-                </div>
-              </div>
+          {BOOKS.map((book) => {
+            const isPaid = book.type === 'paid';
+            const badgeBgClass = isPaid ? 'bg-green-600 text-white' : 'bg-[#FFD500] text-[#0A0A0A]';
+            const badgeText = isPaid ? 'PAID' : 'FREE';
+            
+            const btnBgClass = isPaid 
+              ? 'bg-green-600 hover:bg-green-500 text-white shadow-[0_4px_15px_rgba(34,197,94,0.15)]' 
+              : 'bg-[#FFD500] hover:bg-[#ffe033] text-[#0A0A0A] shadow-[0_4px_15px_rgba(255,213,0,0.15)]';
+              
+            const btnText = isPaid ? 'Buy Now 🚀' : (book.id === 'book-1' || book.id === 'book-2' || book.id === 'book-3') ? 'Download Now' : 'Download Now ⬇';
+            const microText = isPaid ? 'Instant secure checkout' : 'No sign-up required';
 
-              {/* Card Meta Content */}
-              <div className="p-6 pt-5 flex-1 flex flex-col justify-between space-y-5">
-                <div className="space-y-2 text-center md:text-left">
-                  <h3 className="text-xl font-bold text-white group-hover:text-[#FFD500] transition-colors">
-                    {book.title}
-                  </h3>
-                  <p className="text-gray-400 text-xs sm:text-sm leading-relaxed font-light min-h-[40px]">
-                    {book.description}
-                  </p>
-                </div>
-
-                <div className="space-y-2.5">
-                  {/* Download Button */}
-                  <a
-                    href={book.downloadUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    id={`download-book-${book.id}`}
-                    className="w-full py-3.5 bg-[#FFD500] hover:bg-[#ffe033] text-[#0A0A0A] font-extrabold text-xs sm:text-sm rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-[1.01] active:scale-[0.99] shadow-[0_4px_15px_rgba(255,213,0,0.15)]"
-                  >
-                    Download Now <Download size={15} className="animate-bounce" />
-                  </a>
-                  
-                  {/* Helper Text */}
-                  <div className="text-center">
-                    <span className="text-[10px] text-gray-500 font-medium tracking-wide uppercase">
-                      No sign-up required
+            return (
+              <div
+                key={book.id}
+                className="group bg-[#121212] border border-white/5 hover:border-[#FFD500]/30 rounded-[20px] overflow-hidden flex flex-col justify-between transition-all duration-300 shadow-[0_4px_30px_rgba(0,0,0,0.5)] hover:shadow-[0_0_30px_rgba(255,213,0,0.06)]"
+              >
+                {/* Cover Image Container */}
+                <div className="p-6 pb-0 flex justify-center">
+                  <div className="relative aspect-[3/4] w-full max-w-[240px] bg-zinc-900 rounded-xl overflow-hidden border border-white/10 shadow-xl group-hover:scale-[1.03] transition-all duration-500">
+                    <img
+                      src={book.coverUrl}
+                      alt={book.title}
+                      referrerPolicy="no-referrer"
+                      className="w-full h-full object-cover"
+                    />
+                    {/* Small tag pill badge positioned on top-right of the cover */}
+                    <span className={`absolute top-3 right-3 ${badgeBgClass} text-[10px] font-extrabold px-2.5 py-1 rounded-full tracking-wider uppercase shadow-md z-10`}>
+                      {badgeText}
                     </span>
                   </div>
                 </div>
+
+                {/* Card Meta Content */}
+                <div className="p-6 pt-5 flex-1 flex flex-col justify-between space-y-5">
+                  <div className="space-y-2 text-center md:text-left">
+                    <h3 className="text-xl font-bold text-white group-hover:text-[#FFD500] transition-colors">
+                      {book.title}
+                    </h3>
+                    <p className="text-gray-400 text-xs sm:text-sm leading-relaxed font-light min-h-[40px]">
+                      {book.description}
+                    </p>
+                  </div>
+
+                  <div className="space-y-2.5">
+                    {/* Download/Buy Button */}
+                    <a
+                      href={book.downloadUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      id={`download-book-${book.id}`}
+                      className={`w-full py-3.5 ${btnBgClass} font-extrabold text-xs sm:text-sm rounded-lg flex items-center justify-center gap-2 transition-all hover:scale-[1.01] active:scale-[0.99]`}
+                    >
+                      {btnText}
+                      {!isPaid && (book.id === 'book-1' || book.id === 'book-2' || book.id === 'book-3') && (
+                        <Download size={15} className="animate-bounce" />
+                      )}
+                    </a>
+                    
+                    {/* Helper Text */}
+                    <div className="text-center">
+                      <span className="text-[10px] text-gray-500 font-medium tracking-wide uppercase">
+                        {microText}
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Informational Notification Block */}
