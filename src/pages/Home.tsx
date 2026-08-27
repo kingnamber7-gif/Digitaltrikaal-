@@ -517,7 +517,7 @@ export default function Home() {
               Contact Us Now
             </button>
             <a
-              href="https://wa.me/919352392906"
+              href="https://wa.me/916350131379"
               target="_blank"
               rel="noopener noreferrer"
               id="final-cta-btn-whatsapp"

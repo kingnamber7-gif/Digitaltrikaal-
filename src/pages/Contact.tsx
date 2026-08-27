@@ -268,10 +268,10 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-400 text-xs uppercase tracking-wider">Phone / WhatsApp</h4>
-                    <a href="tel:+919352392906" className="text-white hover:text-[#FFD500] font-medium mt-1 block">
-                      +91 93523 92906
-                    </a>
-                    <a href="https://wa.me/919352392906" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[#25D366] text-xs font-semibold mt-1 hover:underline">
+                    <span className="text-white font-medium mt-1 block">
+                      +91 63501 31379
+                    </span>
+                    <a href="https://wa.me/916350131379" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[#25D366] text-xs font-semibold mt-1 hover:underline">
                       <MessageCircle size={12} /> Launch Instant Chat
                     </a>
                   </div>

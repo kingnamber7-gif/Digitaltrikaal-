@@ -230,7 +230,7 @@ export default function DigitalProducts() {
               Contact Ankit
             </Link>
             <a
-              href="https://wa.me/919352392906"
+              href="https://wa.me/916350131379"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto text-center px-8 py-3.5 bg-white/5 border border-white/10 text-white font-semibold rounded-lg transition-all"
